@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+      <h1 class="header-title">Esto es mi portafolio</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Sobre mí</h2>
+        <p>Hola, soy <strong>Benjamín Urrutia</strong>, un desarrollador web apasionado por crear experiencias digitales atractivas y funcionales.</p>
+        <img src="https://www.shutterstock.com/image-photo/dnipro-ukraine-31-jan-2024-600nw-2432138019.jpg" alt="pfp">
+        <h3>Habilidades</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+        </ul>
+      </section>
+      <section class="my-projects">
+        <h2 class="my-projects">Mis proyectos</h2>
+        <p>Aquí hay algunos de mis proyectos recientes:</p>
+        <ul>
+          <li><a href="https://github.com/Sk1920001/Arkanoid-type-of-game">Juego en C</a></li>
+          <li><a href="https://github.com/Sk1920001/MLP-for-Image-Recognition">Red neuronal desde 0 en numpy</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Mis intereses</h2>
+        <p>Me interesa la inteligencia artificial, el desarrollo de videojuegos y la creación de aplicaciones web interactivas.</p>
+        <p>También disfruto de :</p>
+        <ul>
+          <li>La música en particular tocar guitarra &#x1F3B8</li>
+          <l1> También me gusta hacer deporte, en particular el fútbol &#x26BD</l1>
+        </ul>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Esto es una prueba :D 
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Esto es una prueba</strong> Esto es una prueba :D 
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Esto es una prueba 2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>Esto es una prueba 2</strong> Esto es una prueba 2
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Esto es una prueba#3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>Esto es una prueba#3</strong> Esto es una prueba#3
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section>
+        <h2>Formulario Contacto</h2>
+        <form class="form" action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="f8311c98-ae06-40ea-8706-09c58f06e340">
+
+            <!-- Form Inputs. Each input must have a name="" attribute -->
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea name="message" required></textarea>
+
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+            <!-- Custom Confirmation / Success Page -->
+            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+            <button class="send-button" type="submit">Enviar</button>
+
+        </form>
+      </section>
+    </main>
+    <footer>
+      <h3>Contacto</h3>
+      <p>Email: prueba123@gmail.com</p>
+      <p>Teléfono: +56 9 XXXX XXXX</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/benjamin-urrutia/">benjamin-urrutia</a></p>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
