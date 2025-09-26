@@ -6,6 +6,7 @@ function App() {
     <>
       <Button texto="Hola" color="red"/>
       <Button texto="Chao" color="blue"/>
+      <Button texto="Hola Mundo!" color="orange"/>
 
     </>
   )
